@@ -1,0 +1,117 @@
+/*
+Theme Name: plaisirsduthe
+Theme URI: 
+Author: Kévin ROUSSOTTE
+Author URI: 
+Description: ecf the
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+
+/* Couleurs : blanc, noir et 73af01 */
+
+.name-job{
+    margin-left: 25px;
+    color: #73af01;
+    font-size: xx-large;
+    font-weight: bold;
+    text-shadow: 0 0 1px black;
+    width: 800px;
+}
+
+#div-tete{
+    display: flex;
+}
+
+body{
+    margin: 0;
+}
+
+footer{
+    padding: 0;
+    height: 40px;
+}
+
+header{
+    background-color: black;
+    height: 250px;
+}
+
+#logo{
+    width: 150px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: solid #73af01 3px;
+}
+
+main{
+    min-height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h2{
+    color: #73af01;
+    text-shadow: 0 0 1px black;
+}
+
+.post{
+    width: 800px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 1px black;
+    border: solid 2px black;
+}
+
+.wp-image-87{
+    border: solid 2px black;
+    margin-bottom: 10px;
+}
+
+.post__link{
+    color: #73af01;
+    text-shadow: 0 0 1px black;
+}
+
+.post-categories{
+    list-style: none;
+}
+
+.post-categories a{
+    color: #73af01;
+    text-shadow: 0 0 1px black;
+}
+
+.menu {
+    position: fixed;
+    top: 0px;
+}
+
+.admin-bar .menu {
+	top: 32px;
+}
+
+.test-menu ul{
+    display: flex;
+    list-style-type: none;
+    height: 40px;
+    bottom: 0;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.test-menu a {
+    padding: 10px;
+    color: #73af01;
+    font-weight: bold;
+}
